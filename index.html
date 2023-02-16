@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Inter"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="calculator.png" />
+    <title>Metric-Imperial Unit Conversion</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="head">
+        <div id="heading">Metric/Imperial Unit Conversion</div>
+        <input
+          type="number"
+          class="input-box"
+          placeholder="Type Number To calculate"
+        />
+        <div id="convert-btn-div">
+          <button class="convert-btn">Convert</button>
+        </div>
+      </div>
+
+      <div class="body">
+        <div>
+          <h4>Length (Meter/Feet)</h4>
+          <p id="metersToFeet">
+            1 Meters = 3.281 Feets | 1 Feets = 0.305 Meters
+          </p>
+        </div>
+        <div>
+          <h4>Volume (Liters/Gallons)</h4>
+          <p id="litersToGallons">
+            1 Liters = 0.264 Gallons | 1 Gallons = 3.785 mMters
+          </p>
+        </div>
+        <div>
+          <h4>Mass (Kilograms/Pounds)</h4>
+          <p id="kilogramsToPounds">
+            1 Kilos = 44.092 Pounds | 1 Pounds = 9.072 Kilos
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
